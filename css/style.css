@@ -1,0 +1,107 @@
+/* Introduction */
+
+/* Default Styles */
+
+* {
+	font-family: 'Trebuchet MS', sans-serif;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/* Jumbotron */
+
+#home-image {
+	background-image: url(https://images.pexels.com/photos/247373/pexels-photo-247373.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#intro-section {
+	margin-top: 30%;
+}
+
+.intro-text {
+	color: #FFFFFF;
+}
+
+#title-text {
+	font-size: 4em;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.default-intro-text {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#read-more {
+	background-color: #FFFFFF;
+	padding: 5px;
+	border: 2px solid black;
+	border-radius: 20%;
+	margin-top: 25px;
+}
+
+#read-more:hover {
+	text-decoration: none;
+}
+
+#read-more > div {
+	color: #000000;
+	font-size: 2em;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: baseline;
+	margin: auto;
+}
+
+#categories-tile1, #categories-tile2, #categories-tile3, #categories-tile4 {
+	height: 300px;
+	border: 2px solid black;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.categories-text1, .categories-text2, .categories-text3, .categories-text4 {
+	position: absolute;
+ 	bottom: 0;
+  	right: 0;
+  	width: 100%;
+  	text-align: center;
+  	font-size: 1.5em;
+  	text-transform: uppercase;
+  	background-color: #000;
+  	color: #fff;
+  	opacity: .8;
+}
+
+#categories-tile1 {
+	background-image: url('https://images.pexels.com/photos/663573/pexels-photo-663573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+
+#categories-tile2 {
+	background-image: url('https://images.pexels.com/photos/4666751/pexels-photo-4666751.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+
+#categories-tile3 {
+	background-image: url('https://images.pexels.com/photos/2313396/pexels-photo-2313396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+
+#categories-tile4 {
+	background-image: url('https://images.pexels.com/photos/10498906/pexels-photo-10498906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
