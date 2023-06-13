@@ -191,3 +191,56 @@ body {
 
 /* Footer */
 
+footer {
+	font-weight: bold;
+	background-color: #FFF5EE;
+	border: 2px solid black;
+}
+
+#footer {
+	position: relative;
+}
+
+#footer::before {
+	background-image: url('https://images.pexels.com/photos/2440021/pexels-photo-2440021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  	background-size: cover;
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.25;
+}
+
+#contact-info > span {
+	font-size: 1em;
+	font-style: italic;
+}
+
+#socials > span {
+	font-size: 1em;
+	font-style: italic;
+}
+
+#navigational > span {
+	font-size: 1em;
+	font-style: italic;
+}
+
+#policies-conditions > span {
+	font-size: 1em;
+	font-style: italic;
+}
+
+#copyright {
+	margin-top: 20px;
+	font-size: 1em;
+	font-style: italic;
+}
+
+#footer-section-title {
+	margin-bottom: 20px;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
