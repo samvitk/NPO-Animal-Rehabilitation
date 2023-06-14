@@ -11,9 +11,65 @@ html {
 	scroll-behavior: smooth;
 }
 
-body {
-	background-color: #e6f2ff;
+/* Header */
+
+.header1 {
+	position: relative;
 }
+
+.header1::before {
+	background-image: url('https://images.pexels.com/photos/1179229/pexels-photo-1179229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  	background-size: cover;
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.25;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  isolation: isolate;
+}
+
+.navbar-brand a { 
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  isolation: isolate;
+}
+
+.navbar-brand a:hover {
+  text-decoration: none;
+  isolation: isolate;
+}
+
+/* Drop-Down Menu */
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  isolation: isolate;
+}
+
+#nav-list a:hover {
+  text-decoration: underline;
+  isolation: isolate;
+}
+
 
 /* Jumbotron */
 
@@ -215,28 +271,23 @@ footer {
 
 #contact-info > span {
 	font-size: 1em;
-	font-style: italic;
 }
 
 #socials > span {
 	font-size: 1em;
-	font-style: italic;
 }
 
 #navigational > span {
 	font-size: 1em;
-	font-style: italic;
 }
 
 #policies-conditions > span {
 	font-size: 1em;
-	font-style: italic;
 }
 
 #copyright {
 	margin-top: 20px;
 	font-size: 1em;
-	font-style: italic;
 }
 
 #footer-section-title {
@@ -244,3 +295,40 @@ footer {
 	font-size: 1.5em;
 	text-decoration: underline;
 }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+
+	#image {
+		height: 1350px;
+	}
+
+	.intro-image {
+		height: 350px;
+	}
+
+	.navbar-brand {
+	    padding-top: 10px;
+	    height: 80px;
+	 }
+
+	.navbar-brand h1 { /* Restaurant name */
+	    padding-top: 10px;
+	    font-size: 5vw; /* 1vw = 1% of viewport width */
+  	}
+
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 0px;
+    height: 80px;
+  }
+
+ @media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 0px;
+    font-size: 5vw;
