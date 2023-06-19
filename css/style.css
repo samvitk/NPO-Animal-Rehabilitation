@@ -125,8 +125,8 @@ html {
 }
 
 .categories-text1, .categories-text2, .categories-text3, .categories-text4 {
-	position: absolute;
- 	bottom: 0;
+  	position: absolute;
+   	bottom: 0;
   	right: 0;
   	width: 100%;
   	text-align: center;
@@ -156,12 +156,71 @@ html {
 }
 
 #categories-tile4 {
-	background-image: url('https://images.pexels.com/photos/5968121/pexels-photo-5968121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	  background-image: url('https://images.pexels.com/photos/5968121/pexels-photo-5968121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   	background-position: center;
   	background-repeat: no-repeat;
 }
 
 /* About Us */
+
+/* Leadership */
+
+#leadership {
+  margin-top: 75px;
+}
+
+#leadership > #leadership-title {
+  margin-bottom: 50px;
+  color: #000000;
+  font-size: 4em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.samvit-image {
+    background-image: url('https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+}
+
+.vikram-image {
+    background-image: url('https://images.pexels.com/photos/2325446/pexels-photo-2325446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+}
+
+.ayush-image {
+    background-image: url('https://images.pexels.com/photos/2387418/pexels-photo-2387418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+}
+
+.leadership-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #000000;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+#position {
+  font-size: 1.25em;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
 
 /* History */
 
@@ -202,19 +261,19 @@ html {
 
 .history-image1 {
 	background-image: url('https://images.pexels.com/photos/2889742/pexels-photo-2889742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	height: 350px;
-  	position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  position: relative;
 }
 
 .history-image2 {
 	background-image: url('https://images.pexels.com/photos/86405/penguin-funny-blue-water-86405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 	background-position: center;
-  	background-repeat: no-repeat;
-  	height: 350px;
-  	margin-bottom: 50px;
-  	position: relative;
+  background-repeat: no-repeat;
+	height: 350px;
+ 	margin-bottom: 50px;
+	position: relative;
 }
 
 .history-image1:hover, .history-image2:hover {
@@ -222,8 +281,8 @@ html {
 }
 
 .history-caption-text {
-	position: absolute;
- 	bottom: 0;
+	  position: absolute;
+ 	  bottom: 0;
   	right: 0;
   	width: 100%;
   	text-align: center;
@@ -458,7 +517,7 @@ footer {
 
 #footer::before {
 	background-image: url('https://images.pexels.com/photos/2440021/pexels-photo-2440021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-  	background-size: cover;
+  background-size: cover;
 	content: '';
 	position: absolute;
 	top: 0;
