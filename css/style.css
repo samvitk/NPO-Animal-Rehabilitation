@@ -11,6 +11,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+hr {
+  height: 12px;
+}
+
 /* Header */
 
 #header-nav {
@@ -161,6 +165,110 @@ html {
   	background-repeat: no-repeat;
 }
 
+/* Partners */
+
+#partners {
+  position: relative;
+}
+
+#partners::before {
+  background-image: url('https://images.pexels.com/photos/1743165/pexels-photo-1743165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+}
+
+#partners1 {
+  margin-top: 50px;
+}
+
+#partners-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 0.5px 0.5px #000;
+  color: #000;
+  margin: auto;
+  margin-bottom: 25px;
+  isolation: isolate;
+}
+
+#partners-description {
+  font-size: 1.25em;
+  font-weight: bold;
+  text-shadow: 0.2px 0.2px #000;
+  color: #000;
+  margin-bottom: 25px;
+  isolation: isolate;
+}
+
+#donations-button {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 0.2px 0.2px #000;
+  color: #000;
+  width: 125px;
+  border-radius: 10px/20px;
+  background-color: #cc7a00;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  padding: 5px;
+  isolation: isolate;
+}
+
+#partners-image1 {
+  background-image: url('https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  margin-bottom: 25px;
+}
+
+#partners-image2 {
+  background-image: url('https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  margin-bottom: 25px;
+}
+
+#partners-image3 {
+  background-image: url('https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  margin-bottom: 25px;
+}
+
+#partners-image4 {
+  background-image: url('https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  margin-bottom: 25px;
+}
+
+#partners-image5 {
+  background-image: url('https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+#partners-image6 {
+  background-image: url('https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  margin-bottom: 25px;
+}
+
 /* About Us */
 
 /* Leadership */
@@ -221,6 +329,52 @@ html {
   text-transform: uppercase;
   margin-bottom: 25px;
 }
+
+/* Mission */
+
+#mission-description {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 25px;
+  width: 80%;
+}
+
+.mission-image1 {
+  background-image: url('https://images.pexels.com/photos/2387418/pexels-photo-2387418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  margin-bottom: 25px;
+  border-radius: 10%;
+}
+
+.mission-image2 {
+  background-image: url('https://images.pexels.com/photos/2387418/pexels-photo-2387418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  margin-bottom: 25px;
+  border-radius: 10%;
+}
+
+#mission {
+  position: relative;
+  margin-top: 50px;
+}
+
+#mission::before {
+  background-image: url('https://images.pexels.com/photos/2387661/pexels-photo-2387661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.25;
+}
+
 
 /* History */
 
